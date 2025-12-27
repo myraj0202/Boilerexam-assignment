@@ -140,7 +140,7 @@ body {
     gap: 300px;
 }
 
-.contents button {
+.contents button, .options button{
     width: 300px;
     height: 200px;
     border-radius: 20px;
@@ -209,7 +209,7 @@ a {
     padding: 20px 0;
 }
 
-.slider-btn, .contents button {
+.slider-btn, .contents button, .options button {
     min-width: 300px;
     width: 300px;
     height: 200px;
@@ -228,7 +228,7 @@ a {
     padding: 20px;
 }
 
-.slider-btn:hover, .contents button:hover {
+.slider-btn:hover, .contents button:hover, .options button:hover {
     background-color: #CFB991;
     color: #000000;
     transform: scale(1.05);
@@ -275,4 +275,26 @@ a {
     margin-left: 200px;
     color: white;
 
+}
+
+.question-card {
+    background-color: white;
+    color: #2c2c2c;
+    padding: 30px;
+    margin: 40px auto;
+    max-width: 800px;
+    border-radius: 15px;
+    border: 2px solid #CFB991;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.question-card p {
+    font-size: 18px;
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.options button {
+    height: 30px;
+    width: 700px;
 }
