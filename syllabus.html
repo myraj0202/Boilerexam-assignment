@@ -33,22 +33,108 @@
 <div class= 'course-card'>
     <h1>Exam review content</h1>
 </div>
+
+<div class="contents2">
     <h2>Exam 1</h2>
-    <div class="Exam 1">
-        <button><h3>Introduction to Java</h3></button>
-        <button><h3>Loops</h3></button>
-    </div>
-    <h2>Exam 2</h2>
-    <div class="Exam 2">
-        <button><h3>Methods</h3></button>
-        <button><h3>Classes</h3></button>
-    </div>
-    <h2>Exam 3</h2>
-    <div class="Exam 2">
-        <button><h3>File I/O</h3></button>
-        <button><h3>Network I/O</h3></button>
+    <div class="exam1">
+        <div class="slider-wrapper">
+            <button class="arrow left-arrow" onclick="slideLeft('slider')">←</button>
+
+            <div class="slider" id="slider">
+                <button class="slider-btn">
+                    <h3>Topic 1</h3>
+                    <p>Classes & Objects</p>
+                </button>
+                <button class="slider-btn">
+                    <h3>Topic 2</h3>
+                    <p>Inheritance</p>
+                </button>
+                <button class="slider-btn">
+                    <h3>Topic 3</h3>
+                    <p>Polymorphism</p>
+                </button>
+                <button class="slider-btn">
+                    <h3>Topic 4</h3>
+                    <p>Encapsulation</p>
+                </button>
+                <button class="slider-btn">
+                    <h3>Topic 5</h3>
+                    <p>Abstraction</p>
+                </button>
+            </div>
+
+            <button class="arrow right-arrow" onclick="slideRight('slider')">→</button>
+        </div>
+
     </div>
 
+    <h2>Exam 2</h2>
+    <div class="exam2">
+        <div class="slider-wrapper">
+            <button class="arrow left-arrow" onclick="slideLeft('slider2')">←</button>
+
+            <div class="slider" id="slider2">
+                <button class="slider-btn">
+                    <h3>Topic 1</h3>
+                    <p>Classes & Objects</p>
+                </button>
+                <button class="slider-btn">
+                    <h3>Topic 2</h3>
+                    <p>Inheritance</p>
+                </button>
+                <button class="slider-btn">
+                    <h3>Topic 3</h3>
+                    <p>Polymorphism</p>
+                </button>
+                <button class="slider-btn">
+                    <h3>Topic 4</h3>
+                    <p>Encapsulation</p>
+                </button>
+                <button class="slider-btn">
+                    <h3>Topic 5</h3>
+                    <p>Abstraction</p>
+                </button>
+            </div>
+
+            <button class="arrow right-arrow" onclick="slideRight('slider2')">→</button>
+        </div>
+    </div>
+
+
+    <h2>Exam 3</h2>
+    <div class="exam3">
+        <div class="slider-wrapper">
+            <button class="arrow left-arrow" onclick="slideLeft('slider3')">←</button>
+
+            <div class="slider" id="slider3">
+                <button class="slider-btn">
+                    <h3>Topic 1</h3>
+                    <p>Classes & Objects</p>
+                </button>
+                <button class="slider-btn">
+                    <h3>Topic 2</h3>
+                    <p>Inheritance</p>
+                </button>
+                <button class="slider-btn">
+                    <h3>Topic 3</h3>
+                    <p>Polymorphism</p>
+                </button>
+                <button class="slider-btn">
+                    <h3>Topic 4</h3>
+                    <p>Encapsulation</p>
+                </button>
+                <button class="slider-btn">
+                    <h3>Topic 5</h3>
+                    <p>Abstraction</p>
+                </button>
+            </div>
+
+            <button class="arrow right-arrow" onclick="slideRight('slider3')">→</button>
+        </div>
+    </div>
+</div>
+
+<script src="sliding.js"></script>
 
 </body>
 </html>
