@@ -295,7 +295,7 @@ a {
 }
 
 .options button {
-    height: 80px;
+    height: 30px;
     width: 700px;
 }
 
@@ -332,4 +332,11 @@ a {
 .option-btn:disabled {
     cursor: not-allowed;
     opacity: 0.8;
+}
+
+.ppt-display {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
