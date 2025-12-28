@@ -246,7 +246,7 @@ a {
     opacity: 0.9;
 }
 
-.arrow {
+.arrow, .arrow-btn {
     width: 60px;
     height: 60px;
     border: 2px solid #CFB991;
@@ -260,13 +260,13 @@ a {
     flex-shrink: 0;
 }
 
-.arrow:hover {
+.arrow:hover, .arrow-btn:hover {
     background-color: #CFB991;
     color: #000000;
     transform: scale(1.1);
 }
 
-.arrow:disabled {
+.arrow:disabled, .arrow-btn:disabled {
     opacity: 0.3;
     cursor: not-allowed;
 }
@@ -297,4 +297,39 @@ a {
 .options button {
     height: 30px;
     width: 700px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.arrow-btn {
+    width: 300px;
+    border-radius: 15px;
+}
+
+.back-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 300px;
+}
+
+.option-btn.correct {
+    background-color: #4CAF50 !important;  /* Green */
+    color: white !important;
+    border-color: #4CAF50 !important;
+}
+
+.option-btn.incorrect {
+    background-color: #f44336 !important;  /* Red */
+    color: white !important;
+    border-color: #f44336 !important;
+}
+
+.option-btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.8;
 }
