@@ -1,2 +1,5 @@
 # Boilerexams Frontend Application Project
-The solution to my chosen boilerexam challenge.
+
+## The chosen solution to my take-home assignment: Problem 4- creating a course page
+
+
