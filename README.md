@@ -30,4 +30,4 @@ The other buttons exist only for display purposes.
 
 The above images is what clicking on the Exam 1 Topic 1 directs the user to. It essentially contains a power-point viewer to
 a fake presentation, but should be a container for actual power-point notes to the actual topic. The back button at the bottom
-brings you back to the Exam Syllabus review page to explore other topics.
+brings you back to the Exam Syllabus review page to explore other topics. 
