@@ -13,3 +13,6 @@ clicking on "About" in the main menu just leads to the "About" page of the actua
 "Home" just leads you back to this home page of the course.
 Then you just have a card displaying the course name, and three buttons, whose functionalities we'll be exploring further
 down this README.
+
+### Exam syllabus review
+
