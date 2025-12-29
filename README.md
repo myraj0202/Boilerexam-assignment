@@ -36,3 +36,18 @@ brings you back to the Exam Syllabus review page to explore other topics.
 
 ![img_5.png](img_5.png)
 ![img_6.png](img_6.png)
+
+The layout of this page is pretty much the same as the layout of the exam syllabus. And similar to syllabus page, only the 
+Exam 1 Topic 1 button is clickable and directs the user to a page when clicked.
+
+![img_7.png](img_7.png)
+![img_8.png](img_8.png)
+
+The images above is what the user is redirected to after clicking on Exam 1 Topic 1. This is a mock quiz for one of the 
+topics. When the right answer to a question is clicked, the option turns green and the other options are disabled. When
+a wrong answer is clicked, the option is highlighted red, the right answer is highlighted green, and the rest of the options
+are disabled.
+
+![img_9.png](img_9.png)
+
+The back button redirects the user back to the Sample Questions page to explore more such quizzes.
