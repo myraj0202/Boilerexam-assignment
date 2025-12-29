@@ -51,3 +51,12 @@ are disabled.
 ![img_9.png](img_9.png)
 
 The back button redirects the user back to the Sample Questions page to explore more such quizzes.
+
+### Past exams
+
+![img_10.png](img_10.png)
+![img_11.png](img_11.png)
+
+The above images are screenshots of the past exams page. Only Exam 1 of the 2023 section is clickable. Once clicked, it leads
+to a PDF of a CS 180 paper from 2008 for now, since I couldn't find a 2023 exam paper online. This was done purely for 
+demo purposes only. Similarly, the back button leads you to the home page of the course.
